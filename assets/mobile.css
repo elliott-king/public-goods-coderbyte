@@ -1,0 +1,55 @@
+@media screen and (max-width: 701px) {
+  .fullsize-with-text {
+    height: 90vh;
+  }
+  #intro {
+    background: url("../assets/images/menstrual-hero_mobile.jpg");
+    background-size: cover;
+  }
+  .fullsize-contents {
+    width: 60%;
+    margin: auto;
+  }
+  .values-row {
+    display: block;
+    height: auto;
+    margin-bottom: 0;
+  }
+  .values-card {
+    height: 70vh;
+    margin-bottom: 1em;
+  }
+  .values-contents {
+    margin: auto;
+  }
+
+  #values-sustainable {
+    background: url("../assets/images/bamboo_mobile.jpg");
+    background-size: cover;
+  }
+  #values-synthetics {
+    background: url("../assets/images/pad_detail_mobile.jpg");
+    background-size: cover;
+  }
+  #values-personalized {
+    background: url("../assets/images/pad_in_hand_mobile.jpg");
+    background-size: cover;
+  }
+  #collection-row {
+    display: block;
+  }
+
+  #outro {
+    background: url("../assets/images/new-to-public-goods_mobile.jpg");
+    background-size: cover;
+  }
+  .hide-mobile {
+    display: none;
+  }
+
+}
+@media screen and (min-width: 701px) {
+  .hide-desktop {
+    display: none;
+  }
+}
